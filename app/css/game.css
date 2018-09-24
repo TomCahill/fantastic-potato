@@ -1,0 +1,40 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Fredoka One', cursive;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
+
+.title {
+  text-align: center;
+}
+
+#game-grid {
+  width: 50vw;
+  margin: 0 auto;
+}
+#game-grid .row {
+  display: flex;
+}
+#game-grid .row .cell {
+  background: #333;
+  flex: 1;
+
+  min-height: 16.6666vw;
+  margin: 10px;
+  text-align: center;
+  font-size: 16.6666vw;
+}
+#game-grid .row .cell.left {
+  margin-left: 0;
+}
+#game-grid .row .cell.right {
+  margin-right: 0;
+}

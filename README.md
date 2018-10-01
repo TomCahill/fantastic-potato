@@ -8,8 +8,8 @@ Serve `app/` using your favourite web server.
 
 # Rules of Engagement
 1. A goal should be agreed before any code is touched.
-2. No commits after the following Sunday 11:59pm.
-3. No shitty libraries or frameworks (keep it simple!)
+2. The base goal should be reached within a Week. (2018-10-01 11:59:59)
+3. No shitty libraries or frameworks. (keep it simple!)
 4. No Breaking the build. (Dont push broken code into the master branch)
 
 # Project: Noughts and Crosses
